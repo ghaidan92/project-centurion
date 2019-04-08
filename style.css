@@ -1,0 +1,64 @@
+body {
+    background-image: url('./assests/CFS_Backgrpund.jpeg');
+    background-size: 1300px 650px;
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    text-align: center;
+    /* position: fixed; */
+}
+
+#navbar > a{
+    margin-right: 90px;
+    color: darkgreen;
+}
+
+#heading {
+    color: darkgreen;
+    text-align: center;
+    margin-top: 150px;
+    letter-spacing: 6px;
+}
+
+#services {
+    color: darkgreen;
+    text-align: center;
+    margin-top: 300px;
+    letter-spacing: 6px;
+    text-decoration: underline;
+}
+
+.card {
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0,0.2);
+    padding: 10px;
+    margin: 20px 20px;
+    height: 350px;
+    box-shadow: 0px 5px 5px rgb(70, 67, 67);
+    border: 1px solid darkgreen;
+}
+
+.card-img-top {
+    border: 2px solid darkgreen;
+}
+
+#contact-us {
+    color: darkgreen;
+    text-align: center;
+    margin-top: 300px;
+    letter-spacing: 6px;
+    text-decoration: underline;
+}
+
+#map {
+    height: 350px; 
+    width: 100%;  
+}
+
+#request-quote {
+    color: darkgreen;
+    text-align: center;
+    margin-top: 200px;
+    letter-spacing: 6px;
+    text-decoration: underline;
+}
