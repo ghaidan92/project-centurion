@@ -62,3 +62,16 @@ body {
     letter-spacing: 6px;
     text-decoration: underline;
 }
+
+form {
+    /* position: initial;
+    width: 100%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  box-sizing: border-box; */
+  
+}
+
+input[type=text] {
+    background-color: rgb(17, 92, 54);
+}
