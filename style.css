@@ -1,23 +1,65 @@
 body {
-    background-image: url('./assests/CFS_Backgrpund.jpeg');
+    /* background-image: url('./assests/CFS_Backgrpund.jpeg');
     background-size: 1300px 650px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    box-sizing: border-box;
 }
 
-#navbar {
+.hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url('./assests/CFS_Backgrpund.jpeg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    background-position: center;
+}
+
+.hero-about {
+    background-image: linear-gradient(rgba(63, 170, 107, 0.5), rgba(63, 170, 107, 0.5)), url('./assests/CFS_Backgrpund.jpeg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    background-position: center;
+}
+.hero-testimonials {
+    background-image: linear-gradient(rgba(63, 170, 107, 0.5), rgba(63, 170, 107, 0.5)), url('https://66.media.tumblr.com/3f171976a657d71853358b8fd7416ece/tumblr_ny6xroMtQa1tchrkco1_500.gif');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    /* overflow: auto; */
+    background-position: center;
+}
+
+.navbar {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    position: relative;
+    
+}
+
+/* #navbar {
     text-align: center;
-    /* position: fixed; */
-}
+    position: fixed;
+} */
 
-#navbar > a{
+/* #navbar > a{
     margin-right: 90px;
     color: darkgreen;
-}
+} */
 
 #heading {
     color: darkgreen;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 300px;
     letter-spacing: 6px;
 }
 
@@ -36,10 +78,14 @@ body {
     height: 350px;
     box-shadow: 0px 5px 5px rgb(70, 67, 67);
     border: 1px solid darkgreen;
+    font-size: 1vw;
+    font-size: .7rem;
+    width: 100% !important;
 }
 
 .card-img-top {
     border: 2px solid darkgreen;
+    border-radius: 15px;
 }
 
 #contact-us {
@@ -63,18 +109,18 @@ body {
     text-decoration: underline;
 }
 
-.subFrom {
-    max-width: 500px;
-    margin: 2rem auto;
-    /* border: 2px solid blue; */
-    padding: 2rem;
+.subFrom input, textarea {
+    background-color: blanchedalmond;
+    width: 100%;
+    opacity: .8;
+    border-radius: 5px;
 }
 
 #sendBtn {
     border: 0;
-    background-color: purple;
+    /* background-color: purple; */
     padding: .5rem;
-    color: white;
+    /* color: white; */
     margin: 1rem 0;
     width: auto;
     text-transform: uppercase;
@@ -95,7 +141,7 @@ body {
 
 #raul {
     border-radius: 50%;
-    float: left;
+    float: right;
     border: 2px solid white;
 }
 
@@ -112,13 +158,11 @@ body {
 }
 
 #carouselExampleIndicators {
-    height: 500px;
-    background-image: url('https://66.media.tumblr.com/3f171976a657d71853358b8fd7416ece/tumblr_ny6xroMtQa1tchrkco1_500.gif');
-    background-size: cover;
+    height: 90vh;
 }
 
 .carousel-item {
     /* margin-left: 350px; */
-    margin-top: 100px;
-    color: rgb(31, 158, 14);
+    margin-top: 15rem;
+    color: rgb(238, 241, 238);
 }
