@@ -110,3 +110,15 @@ body {
     color: white;
     text-decoration: underline;
 }
+
+#carouselExampleIndicators {
+    height: 500px;
+    background-image: url('https://66.media.tumblr.com/3f171976a657d71853358b8fd7416ece/tumblr_ny6xroMtQa1tchrkco1_500.gif');
+    background-size: cover;
+}
+
+.carousel-item {
+    /* margin-left: 350px; */
+    margin-top: 100px;
+    color: rgb(31, 158, 14);
+}
