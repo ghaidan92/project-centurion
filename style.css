@@ -63,15 +63,50 @@ body {
     text-decoration: underline;
 }
 
-form {
-    /* position: initial;
-    width: 100%;
-  padding: 12px 20px;
-  margin: 6px 0;
-  box-sizing: border-box; */
-  
+.subFrom {
+    max-width: 500px;
+    margin: 2rem auto;
+    /* border: 2px solid blue; */
+    padding: 2rem;
 }
 
-input[type=text] {
-    background-color: rgb(17, 92, 54);
+#sendBtn {
+    border: 0;
+    background-color: purple;
+    padding: .5rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+}
+
+#certificates {
+}
+
+#mission {
+    text-align: center;
+}
+
+#dots {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+#raul {
+    border-radius: 50%;
+    float: left;
+    border: 2px solid white;
+}
+
+#our-story {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#dot {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-decoration: underline;
 }
