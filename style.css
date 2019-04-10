@@ -39,6 +39,7 @@ body {
 
 .navbar {
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    background-color: rgb(91, 139, 91) !important;
 }
 
 .content {
@@ -67,15 +68,17 @@ body {
     color: darkgreen;
     text-align: center;
     margin-top: 300px;
+    margin-bottom: 60px;
     letter-spacing: 6px;
     text-decoration: underline;
+    padding: 20px;
 }
 
-.card {
+.card-service {
     box-shadow: 0px 0px 20px 1px rgba(0,0,0,0,0.2);
     padding: 10px;
     margin: 20px 20px;
-    height: 350px;
+    height: 400px;
     box-shadow: 0px 5px 5px rgb(70, 67, 67);
     border: 1px solid darkgreen;
     font-size: 1vw;
@@ -94,11 +97,17 @@ body {
     margin-top: 300px;
     letter-spacing: 6px;
     text-decoration: underline;
+    padding: 20px;
 }
 
 #map {
     height: 350px; 
     width: 100%;  
+}
+
+.location {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    opacity: .8;
 }
 
 #request-quote {
@@ -107,6 +116,7 @@ body {
     margin-top: 200px;
     letter-spacing: 6px;
     text-decoration: underline;
+    padding: 20px;
 }
 
 .subFrom input, textarea {
@@ -131,6 +141,7 @@ body {
 
 #mission {
     text-align: center;
+    margin-top: 200px;
 }
 
 #dots {
@@ -157,6 +168,11 @@ body {
     text-decoration: underline;
 }
 
+#story {
+    color:rgb(0, 0, 0);
+    margin-bottom: 20%;
+}
+
 #carouselExampleIndicators {
     height: 90vh;
 }
@@ -165,4 +181,13 @@ body {
     /* margin-left: 350px; */
     margin-top: 15rem;
     color: rgb(238, 241, 238);
+}
+
+.card-body > h5 {
+    color: green;
+    font-weight: bold;
+}
+
+.card-body > p {
+    color: green;
 }
