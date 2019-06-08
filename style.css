@@ -88,6 +88,13 @@ body {
     /* font-size: 1vw; */
     font-size: .6rem;
     width: 100% !important;
+    transition: transform .3s;
+    cursor: pointer;
+    
+}
+
+.card-service:hover {
+    transform: translateY(-1.5rem) scale(1.03);
 }
 
 .card-img-top {
